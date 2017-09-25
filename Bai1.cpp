@@ -4,13 +4,14 @@ using namespace std;
 
 int main()
 {
+	int Sum = 0 ;
 	int n;
-	float Sum =0;
-	cout<<"please input n: "<<endl;
+	cout<<"Enter Value: "<<endl;
 	cin>>n;
-	for(float i=1;i<=n;i++)
+	for(int i=0;i<=n;i++)
 	{
-	  Sum =Sum + 1/i;
+	  Sum =Sum + i;
 	}
 	cout<<"Sum: "<<Sum<<endl;
+return 0;
 }
